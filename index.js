@@ -13,7 +13,6 @@ function createWindow(){
             preload: path.join(__dirname, 'preload.js'),
         }
     });
-    window.webContents.openDevTools()
     window.loadFile('index.html');
 }
 
